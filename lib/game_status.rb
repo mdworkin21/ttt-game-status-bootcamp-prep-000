@@ -42,10 +42,7 @@ end
 
 
 def draw?(board)
- if
-  !full?(board)
-  return false
-else
+if win?(board) == false
   return true
 
 end
