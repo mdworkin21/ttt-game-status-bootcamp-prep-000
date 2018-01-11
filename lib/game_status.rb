@@ -26,11 +26,11 @@ if WIN_COMBINATIONS.each do |win|
    elsif win.all? {|o| board[o] == "O"}
      return win
 
-    end
-end
-else
-  return false
-end
+          end
+      end
+  else
+    return false
+  end
 end
 
 def full?(board)
