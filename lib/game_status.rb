@@ -46,8 +46,7 @@ else
   full?(board)
   return true
 else
-  return
-  true
+  return true
 
 end
 end
