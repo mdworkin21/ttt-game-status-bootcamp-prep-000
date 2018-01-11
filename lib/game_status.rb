@@ -29,8 +29,9 @@ if WIN_COMBINATIONS.each do |win|
      return win
 
     end
-  end
+
 else return false
+end
 end
  end
 
