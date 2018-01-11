@@ -40,7 +40,7 @@ end
 
 
 def draw?(board)
- if won?(board) == WIN_COMBINATIONS.select{|win| win == WIN_COMBINATIONS[0]}
+ if won?(board) == WIN_COMBINATIONS.select{|win| win == WIN_COMBINATIONS[0][0] && win == WIN_COMBINATIONS[0][1] && win == WIN_COMBINATIONS[0][2]}
    return false
 elsif
   full?(board)
