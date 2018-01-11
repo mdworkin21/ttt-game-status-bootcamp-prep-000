@@ -30,10 +30,9 @@ if WIN_COMBINATIONS.each do |win|
 
     end
 
-else return false
+else 
+  return false
 end
-end
- end
 end
 
 def full?(board)
