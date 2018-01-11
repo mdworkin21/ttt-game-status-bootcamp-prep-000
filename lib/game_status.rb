@@ -28,10 +28,7 @@ def won?(board)
    elsif win.all? {|o| board[o] == "O"}
      return win
 
-   else
-     return false
-
-   end
+    end
   end
  end
 
