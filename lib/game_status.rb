@@ -34,7 +34,7 @@ else return false
 end
 end
  end
-
+end
 
 def full?(board)
   board.all? {|filled| filled == "X" || filled == "O"}
