@@ -40,7 +40,7 @@ end
 
 
 def draw?(board)
- if won?(board)
+ if won?(board) == WIN_COMBINATIONS[0]
    return false
 elsif
   full?(board)
